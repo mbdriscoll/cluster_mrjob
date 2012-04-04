@@ -75,7 +75,7 @@ print "Tasks done. Total execution time: %d seconds" % end-start
 # new main
 #
 
-# WANT: from diarizer import diarize
+# WANT: from diarizer import diarize_all
 from cluster_map import diarize_all
 from time import time
 from sys import argv
