@@ -63,7 +63,8 @@ from sys import argv
 
 start = time()
 
-for filename in parse_input_filenames( argv ):
+input_filenames = parse_input_filenames( argv ):
+for filename in input_filenames:
     diarize( filename )
 
 end = time()
